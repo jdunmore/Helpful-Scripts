@@ -1,5 +1,7 @@
 # Get file sizes from a list of files
 
+Will display the size of files found in a list
+
 ## Usage
 ./getFileSizesFromFileList.sh fileslist.out
 
