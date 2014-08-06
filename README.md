@@ -1,6 +1,12 @@
-Helpful-Scripts
-===============
+# Get file sizes from a list of files
 
-My own helpful scripts.
+## Usage
+./getFileSizesFromFileList.sh fileslist.out
 
-Various bash/php scripts that help me out
+where filelist is something like
+```
+file1
+file2
+file3
+....
+```
