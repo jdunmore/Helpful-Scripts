@@ -1,0 +1,2 @@
+for file in *.JPG; do mv $file `echo $file | sed 's/\(.*\.\)JPG/\1jpg/'`; done
+

@@ -1,0 +1,15 @@
+sudo apt-get install imagemagick
+
+cd /home/user/photos/holidays
+mkdir thumbs
+cp /home/user/photos/holidays/* /home/user/photos/holidays/thumbs/
+cd thumbs
+
+(aspect ratio)
+mogrify -resize 640 *.jpg
+
+mogrify -resize 640×480! *.jpg
+
+for file in *.JPG; do mv $file `echo $file | sed 's/\(.*\.\)JPG/\1jpg/'`; done
+
+
